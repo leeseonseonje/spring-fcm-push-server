@@ -35,5 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+application.yml
+albaayo-c08d1-firebase-adminsdk-7hkp4-f330c3d2c8.json
 src/main/resources/static/
 src/main/resources/templates/
+src/main/resources/albaayo-c08d1-firebase-adminsdk-7hkp4-f330c3d2c8.json
