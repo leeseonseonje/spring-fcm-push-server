@@ -70,8 +70,8 @@ public class FcmService {
     /**
      * 메시지 전송(멀티캐스트)
      */
-    public void sendMulticastMessage(List<String> fcmTokens, String title, String body) throws ExecutionException, InterruptedException {
-        MulticastMessage multicastMessage = makeMulticastMessage(fcmTokens, title, body);
+    public void sendMulticastMessage(List<String> tokens, String title, String body) throws ExecutionException, InterruptedException {
+        MulticastMessage multicastMessage = makeMulticastMessage(tokens, title, body);
 
         //실제로 메시지가 보내지는 부분
         FirebaseMessaging.getInstance().sendMulticastAsync(multicastMessage).get();
